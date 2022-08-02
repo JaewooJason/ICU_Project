@@ -95,7 +95,7 @@
 
   - Bodypix의 경우 사람과 배경을 분리해주는 모델입니다. 
     - Bodypix를 사용하지 않은 이유 : 화면이 밝기가 높았을때에는 사람과 배경을 분리 했으나 밝기가 어두워지면 사람과 배경을 구분하지 못하는 상황이 발생했습니다.
-    - 
+  
     ![Screenshot 2022-08-02 at 15 23 29](https://user-images.githubusercontent.com/99243083/182310709-17fd2d70-d86b-45fb-a58d-507eacd2436e.png)
     
     ---
