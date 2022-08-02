@@ -86,8 +86,8 @@
   - 5명의 인원이 각자 Video Detecting Model에 대한 조사를 시작하였고 OpenCV, Mediapipe pose estimation, Mediapipe hands estimation, Bodypix, YoLov5등 구글이나 다른곳에서 오픈소스로 제공되어지고 있는 모델등을 가지고 와서 우리 모델에 적용하는 방법을 채택함.
   
 #### 2. 다양한 Detecting model에 대한 선정과정 및 사용할 모델 선정
-  - Mediapipe pose estimation의 경우 사람의 몸에 포인트를 설정하고 그 포인트에 좌표를 설정하여 움직임을 Detect하는 모델입니다. 
-
+  - Mediapipe pose estimation의 경우 사람의 몸에 포인트를 설정하고 그 포인트에 좌표를 설정하여 신체를 추적하는 모델입니다. 
+    - Mediapipe pose estimation을 사용하지 않은 이유 : 사람마다 키 패드나 손잡이를 잡는 모습이 모두 달라서 어떠한 모습이 이상행동이라고 정의하기 어렵습니다.
 
 
 
