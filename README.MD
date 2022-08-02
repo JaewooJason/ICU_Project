@@ -86,8 +86,7 @@
   - 5명의 인원이 각자 Video Detecting Model에 대한 조사를 시작하였고 OpenCV, Mediapipe pose estimation, Mediapipe hands estimation, Bodypix, YoLov5등 구글이나 다른곳에서 오픈소스로 제공되어지고 있는 모델등을 가지고 와서 우리 모델에 적용하는 방법을 채택함.
   
 #### 2. 다양한 Detecting model에 대한 선정과정 및 사용할 모델 선정
-  1) Mediapipe pose estimation
-    Mediapipe Pose Estimation의 경우 사람의 몸 전체를 Detecting 하여 
+  - Mediapipe pose estimation의 경우 사람의 몸
 
 
 
