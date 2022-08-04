@@ -99,7 +99,11 @@
     ![Screenshot 2022-08-02 at 15 23 29](https://user-images.githubusercontent.com/99243083/182310709-17fd2d70-d86b-45fb-a58d-507eacd2436e.png)
     
     ---
+  - Mediapipe hands estimation model의 경우 손의 움직임을 추적하여 위치에 손의 설정되어 있는 포인트를 좌표값으로 변환하여 손이 움직을 detect 해주는 모델입니다.
+    - Mediapipe hands estimation model을 채택한 이유 : 이 모델의 경우 키패드와 손잡이의 위치만 확실히 잡히게 되면 확실한 성능을 유지하였고, 손이 키패드나 손잡이와 겹치게 되면 이상행동으로 판별하여 보다 쉽게 이상행동을 캐치할 수 있어서 선정하였습니다.
+    - if문으로 손이 키패드나 손잡이에 겹치게 되면 이상행동으로 판별되어 1을 나오게 되면 mqtt 통신으로 신호를 보내게 되어있습니다. 
     
+![hand_landmarks](https://user-images.githubusercontent.com/99243083/182845878-6099df3e-4ac8-4a92-a35c-dd8da2320afd.png)
 
    
 
